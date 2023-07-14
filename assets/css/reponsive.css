@@ -1,0 +1,120 @@
+/* Reponsive */
+
+/* Pc: width >= 1024px */
+@media (min-width: 64em) {
+    #header .ti-menu {
+        display: none;
+    }
+}
+
+/* Tablet: width >=740px and width > 1024px */
+@media (min-width:  46.25em) and (max-width: 63.9375em) {
+    #header .ti-menu {
+        display: none;
+    }
+}
+
+/* Tablet and mobile */
+@media (max-width: 63.9375em) 
+{
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 1.8;
+    }
+
+    #footer .socials-list {
+        font-size: 36px;
+    }
+
+    #footer .socials-list a {
+        padding: 0 8px;
+    }
+
+    #footer .copyright, 
+    #footer .copyright a {
+        font-size: 36px;
+        padding: 24px 0;
+    }
+}
+
+/* Mobile: width < 740px */
+@media (max-width: 46.1875em) {
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    .pd-l-r {
+        padding: 0 4px;
+    }
+
+    #header {
+         overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    
+    #nav > li:first-child {
+        display: inline-block;
+        /* cho thẻ home không bị full khi click */
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+    #content .member-item {
+       margin-top: 30px;
+       width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+        margin-bottom: 16px;
+    }
+
+    .contact-info {
+        margin-bottom: 24px;
+    }
+
+    
+
+}
